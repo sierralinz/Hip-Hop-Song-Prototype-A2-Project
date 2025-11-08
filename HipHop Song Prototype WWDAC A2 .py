@@ -1,9 +1,8 @@
-# 60 second hip-hop prototype
-# Beginner-friendly version with detailed comments explaining each step
+# Hip-hop song prototype
 from earsketch import *
 
-# --- SETUP ---
-init()  # Initializes the EarSketch session. Must always call this first.
+# SETUP 
+init()  # Initializes the EarSketch session (always comes first)
 setTempo(90)  # Sets the BPM (beats per minute) of the track. 90 BPM is a classic hip-hop tempo.
 
 # SOUND DEFINITIONS 
@@ -29,7 +28,7 @@ verse1_measures = 4
 chorus_measures = 3          
 verse2_measures = 2           
 outro_measures  = 1           
-end_measure     = 12  # end of first section
+end_measure     = 12 
 
 # INTRO (Measures 1-4) 
 # Gradual intro to build anticipation
@@ -37,8 +36,7 @@ end_measure     = 12  # end of first section
 
 fitMedia(piano, 1, 1, 7)  # fitMedia(sound, track, startMeasure, endMeasure)
 # (*fitMedia = how you fit a sound clip into a specific spot in the timeline)
-# Track 1 is where piano will be placed
-# It plays from measure 1 through 7 (intro + verse 1)
+# Track 1 is where piano will be placed. It plays from measure 1 through 7 (intro + verse 1)
 
 # setEffect(track, effectType, param, startValue, startMeasure, endValue, endMeasure)
 # Applying volume changes to fade the sound in gradually
@@ -98,8 +96,8 @@ fitMedia(piano, 1, 10, 12)
 fitMedia(synth, 6, 11, 12)
 
 # OUTRO / FADE: Measures 12-14 
-fitMedia(piano, 1, 12, 14)   # piano tail
-fitMedia(hihat, 2, 12, 14)   # hi-hat tail
+fitMedia(piano, 1, 12, 14)   # piano tail (ending section)
+fitMedia(hihat, 2, 12, 14)   # hi-hat tail (ending section)
 
 # Fade-out volume gradually
 setEffect(1, VOLUME, GAIN, 0, 12, -20, 14)
@@ -115,7 +113,7 @@ switch_hihat = HIPHOP_DUSTYGROOVE_006
 switch_bass = IRCA_SALSA_2_BASS_2
 switch_piano = YG_NEW_FUNK_ELECTRIC_PIANO_1
 switch_pad = YG_NEW_FUNK_ELECTRIC_PIANO_3
-voc_switch = ENTREP_VOX_JAYZ_VRS_2
+voc_switch = ENTREP_VOX_JAYZ_VRS_2 # new vocal
 
 # Fade out old vocals/synth to avoid overlap
 setEffect(10, VOLUME, GAIN, 0, 12, -35, 13)
