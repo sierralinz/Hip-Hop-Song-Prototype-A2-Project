@@ -1,17 +1,16 @@
 # Hip-Hop-Song-Prototype-A2-Project
 
-A short, beginner-friendly EarSketch project created to learn the basics of coding through music.
+An EarSketch project created to learn the basics of coding through music, and emulate the creativity and energy of contemporary Hip-Hop.
 
 **Introduction**  
 
-This project, **“60-Second Hip-Hop Prototype,”** was my first attempt at coding with creativity.  
-Using the [EarSketch](https://earsketch.gatech.edu/) platform, I wrote Python code to build a short hip-hop track that mirrors the essence of artists like Tyler the Creator and Kendrick Lamar.  
-This prototype  helped me understand how music and programming logic can work together.  
+This project, **“Hip-Hop Song Prototype”** was my first attempt at coding with creativity.  
+Using the Earsketch platform, I wrote Python code to build a short hip-hop track that mirrors the essence of artists like Tyler the Creator and Kendrick Lamar.  This prototype  helped me understand how music and programming logic can work together.  
 
 **Purpose**  
 
 The main goal of this project was to learn Python in a hands-on, creative way, by:  
-- Writing and organizing code that produces sound  
+- Writing and organising code that produces sound  
 - Understanding how loops, timing, and functions work in practice  
 - Seeing how structure (like intro, verse, and outro) can be represented through code  
 
@@ -22,24 +21,23 @@ The main goal of this project was to learn Python in a hands-on, creative way, b
 - Library: EarSketch API  
 - Tempo: 90 BPM (classic hip-hop tempo)
 
-**Set Up/How to Run
+**Set up/how to run
 **
-
 1. Go to [https://earsketch.gatech.edu](https://earsketch.gatech.edu).  
-2. Create a free account or continue as a guest.  
-3. Copy and paste the full Python code into the code editor.  
-4. Press 'run' to generate and play the track.  
-5. (Optional) Download to export the final audio file
-
+2. Create an account or continue as a guest
+3. Copy and paste the full Python code into the code editor 
+4. Press 'run' to generate and play the track
+5. (optional) Download as MP3 file
+   
 **What I Learned  
 **
 
 From building this prototype, I learned how to:  
-- Use function (`init()`, `fitMedia()`, `setEffect()`) to control musical structure  
-- Organize sounds and beats using tracks and measures
-- Add audio effect like fade-ins and reverb using code  
+- Use functions like (`init()`, `fitMedia()` and `setEffect()`) to control musical structure and composition
+- Organise sounds and beats using tracks and measures
+- Add audio effects like fade-ins and reverb through code  
 - Read and write commented code that others (and future me) can understand  
-- Apply creative thinking to technical learning — turning code into art
+- Apply creative thinking to technical learning, turning code into art and a mode of personal expression and identity
 
 **Project Structure  
 **
@@ -53,9 +51,11 @@ Outro | Reverb & fade-out | 24–29 |
 
 **Inspiration & Credits  
 **
-This prototype was created through the **EarSketch learning platform by Georgia Tech**, which teaches coding concepts through music production.  
+This prototype was created through the Earsketch learning platform, which teaches coding concepts through music production, in addition to
 
-All sound samples and loops are from the **EarSketch sound library**.  
+.......
+
+All sound samples and loops are from the Earsketch sound library.  
 
 **Author**  
 
