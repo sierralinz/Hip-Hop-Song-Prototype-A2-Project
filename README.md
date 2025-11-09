@@ -51,9 +51,7 @@ Outro | Reverb & fade-out | 24–29 |
 
 **Inspiration & Credits  
 **
-This prototype was created through the Earsketch learning platform, which teaches coding concepts through music production, in addition to
-
-.......
+This prototype was created through the Earsketch learning platform, which teaches coding concepts through music production, in addition to subject resources, readings and youtube tutorials.
 
 All sound samples and loops are from the Earsketch sound library.  
 
